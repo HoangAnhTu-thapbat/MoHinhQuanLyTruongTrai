@@ -60,8 +60,6 @@ Hệ thống này thu thập **nhiệt độ**, **độ ẩm**, **nồng độ k
 
 ### 1.2 Sơ Đồ Nối Dây
 
-> Xem `docs/wiring_diagram.png` để hình ảnh trực quan. Dưới đây là mô tả bằng văn bản:
-
 #### Arduino UNO ⇄ Cảm biến
 
 - DHT11:  
