@@ -18,15 +18,25 @@ Hệ thống này thu thập **nhiệt độ**, **độ ẩm**, **nồng độ k
 ## Cấu Trúc Repository
 
 -/project-root
+
 -│
+
 -├── README.md
+
 -├── Arduino_UNO
+
 -│ └── uno_sensor.ino # Mã nguồn Arduino đọc DHT11, MQ-135, BH1750
+
 -│
+
 -├── ESP8266
+
 -│ └── esp_main.ino # Mã nguồn ESP8266 (NodeMCU) kết nối Wi-Fi, MQTT, điều khiển relay
+
 -│
+
 -├── Node-RED
+
 -└── flow.json # Flow xuất khẩu (export) cho Node-RED
 
 
