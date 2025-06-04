@@ -25,8 +25,7 @@
   - [7.3 Chế độ tự động (Auto)](#73-chế-độ-tự-động-auto)  
 - [8. Phần mở rộng & Tùy chỉnh](#8-phần-mở-rộng--tùy-chỉnh)  
 - [9. Khắc phục sự cố (Troubleshooting)](#9-khắc-phục-sự-cố-troubleshooting)  
-- [10. Liên hệ & Hỗ trợ](#10-liên-hệ--hỗ-trợ)  
-- [11. License](#11-license)  
+- [10. Liên hệ & Hỗ trợ](#10-liên-hệ--hỗ-trợ)   
 
 ---
 
