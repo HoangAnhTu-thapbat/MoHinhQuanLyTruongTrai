@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/08c3cefa-b5e2-4807-9704-c786af63979c)# Hệ Thống Giám Sát & Điều Khiển Môi Trường Chuồng Trại IoT
+# Hệ Thống Giám Sát & Điều Khiển Môi Trường Chuồng Trại IoT
 
 > Tổng hợp hướng dẫn cấu hình, cài đặt và vận hành dự án “Farm Environment Monitor & Controller” sử dụng Arduino UNO, ESP8266, Module Relay, và Node-RED.
 
@@ -290,33 +290,50 @@ npm install node-red-dashboard
 ![image](https://github.com/user-attachments/assets/1a94b4d7-29d0-4626-a1ab-053d30d69685)
 
 - Gửi thông tin đến esp
+
 ![image](https://github.com/user-attachments/assets/c408a6fa-6afb-44f7-a702-23141c11ad2f)
 
 - Esp đã nhận
+
 ![image](https://github.com/user-attachments/assets/56e6fd59-5a23-4022-ae55-ffb306f1114c)
 
 - Realy 1 lên đèn và quạt bật
+
 ![image](https://github.com/user-attachments/assets/3ce9499d-210e-49ad-9e1a-5b113e15a6ea)
 
 2. Máy phun sương
 
 - Tương tự nhưng không phải switch mà là button ( tùy vì module phun sương tôi dùng là loại nguồn ngoài với dây khởi động cần xung nhịp ) gọi đến relay đóng và mở mạch trong thời gian ngắn kích hoạt module chạy.
+
 ![image](https://github.com/user-attachments/assets/c848fa41-d1e1-4ea4-bb6c-bc5173df57dc)
+
 ![image](https://github.com/user-attachments/assets/e7cce90f-8e3a-41b9-91b7-d1167893bbd8)
 
 3. Chế độ auto
 
 - Dựa vào logic để chạy
+
 ![image](https://github.com/user-attachments/assets/20f0d0fd-beda-40f1-bc75-c3ae60267001)
 
 - Khi ấn auto thì thông báo chế độ hiện tại là auto
+
 ![image](https://github.com/user-attachments/assets/0012bfab-3d55-4b37-9c17-da02508ed3e9)
 
 - Sau đó hệ thống phát hiện nhiệt độ trên 30 đô ( cụ thể là 31 như hình trên ) tự động gọi payload của quạt với tham số Bật
+
 ![image](https://github.com/user-attachments/assets/dc36ce82-5375-46fc-b46d-09c7f4d336d1)
 
 - Quạt bật và tự tắt khi nhiệt độ xuống dưới 30 độ
+
 ![image](https://github.com/user-attachments/assets/0b5f2d7b-f9f0-4c9a-831a-80aa25cd3b05)
+
+4. Cảnh báo
+
+- Dựa vào thông tin để đưa ra cảnh báo
+
+![image](https://github.com/user-attachments/assets/a9f73d7a-46e3-40e0-9499-cb251c47b8e5)
+
+![image](https://github.com/user-attachments/assets/58281b12-3b3a-47e4-a3a5-89658bc60951)
 
 
 ✅ **Kết quả**: Khi môi trường vượt ngưỡng, hệ thống tự **bật quạt/phun sương**; khi hạ ngưỡng, tự **tắt thiết bị**
