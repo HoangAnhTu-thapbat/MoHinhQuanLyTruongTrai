@@ -64,7 +64,7 @@ Dự án “Farm Environment Monitor & Controller” nhằm mục đích:
 
 5. **Chế độ tự động (Auto Logic):**  
      - Nhiệt độ > 30°C → publish `farm/fan = "1"` (bật quạt).  
-     - Nhiệt độ < 28°C → publish `farm/fan = "0"` (tắt quạt).  
+     - Nhiệt độ =< 30°C → publish `farm/fan = "0"` (tắt quạt).  
      - Tương tự với độ ẩm/gas để phun sương.  
 
 ## 3. Yêu cầu và thành phần
