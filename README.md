@@ -202,7 +202,7 @@ npm install node-red-dashboard
 
 1. Mở giao diện Node-RED: [http://127.0.0.1:1880](http://127.0.0.1:1880)
 2. Nhấn ☰ (menu) → **Import** → **Clipboard**
-3. Dán nội dung file `flow.json` (nằm trong thư mục `Node-RED/flow.json` của project)
+3. Dán nội dung file `flow.json` trong dự án
 4. Nhấn **Import** trên workspace, sau đó **Deploy**
 
 ---
