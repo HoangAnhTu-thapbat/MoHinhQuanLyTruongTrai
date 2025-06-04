@@ -39,7 +39,7 @@ Dự án “Farm Environment Monitor & Controller” nhằm mục đích:
 - **Hai chế độ vận hành**:  
   - **Manual**: Người dùng tự click nút trên Dashboard để bật/tắt.  
   - **Auto**: Node-RED tự động gửi lệnh theo ngưỡng cài sẵn (ví dụ: temp > 30°C → bật quạt).
-
+## - Chỉ có hai file code nạp vào UNO và ESP còn lại flow của node red rất phức tạp mình đã xuất ra file flow.json bạn chỉ cần dùng thôi!
 ---
 
 ## 2. Tính năng chính
